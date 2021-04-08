@@ -10,7 +10,7 @@ git clone https://github.com/binolinux/rockaur /tmp/rockaur
 cd /tmp/rockaur ; rm -rf .git README.md
 
 3. gere a base de dados do repo <br>
-sudo repo-add ./rockaur.db.tar.gz ./*
+sudo repo-add ./rockaur.db.tar.zst ./*
 
 4. faça um backup do seu pacman.conf com o comando <br>
 sudo cp /etc/pacman.conf /etc/pacman.conf.bkp
